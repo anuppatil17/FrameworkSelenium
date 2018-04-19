@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" annotations="JDK">
+<test name="Mobile1">
+		<parameter name="device_ID" value="FYCESSRG7LLZNB6P" />
+		<parameter name="platformName" value="Android" />
+		<parameter name="os_Version" value="5.0.1" />
+		<parameter name="bundleID" value="" />
+		<parameter name="appPackage" value="" />
+		<parameter name="appActivity" value="" />
+		<parameter name="appname" value="" />
+		<parameter name="appurl" value="" />
+		<parameter name="appbrowser" value="Chrome" />
+		<parameter name="appType" value="HYBRID" />
+		<parameter name="platform" value="GRID" />
+		<parameter name="user" value="" />
+		<parameter name="password" value="" />
+		<parameter name="url" value="http://127.0.0.1:4723/wd/hub" />
+		<parameter name="datasheetloc" value="" />
+		<parameter name="screenshotsloc" value="" />
+		<parameter name="driversheet" value="" />
+		<classes>
+			<class name="executionEngine.DriverScript">
+			</class>
+		</classes>
+	</test>
+ 	<test name="Google">
+		<parameter name="device_ID" value="SOT8BQCESCPRE6IF" />
+		<parameter name="platformName" value="Andriod" />
+		<parameter name="os_Version" value="5.0.1" />
+		<parameter name="bundleID" value="" />
+		<parameter name="appPackage" value="in.amazon.mShop.android.shopping"/>
+		<parameter name="appActivity" value="com.amazon.mShop.home.HomeActivity"/>
+		<parameter name="appname" value="" />
+		<parameter name="appurl" value="" />
+		<parameter name="appbrowser" value="" />
+		<parameter name="appType" value="HYBRID" />
+		<parameter name="platform" value="GRID" />
+		<parameter name="user" value="" />
+		<parameter name="password" value="" />
+		<parameter name="url" value="http://127.0.0.1:4723/wd/hub" />
+		<parameter name="datasheetloc" value="" />
+		<parameter name="screenshotsloc" value="" />
+		<parameter name="driversheet" value="" />
+		<classes>
+			<class name="executionEngine.DriverScript">
+			</class>
+		</classes>
+	</test>
+
+	<test name="chrome">
+		<parameter name="device_ID" value="web" />
+		<parameter name="platformName" value="chrome" />
+		<parameter name="os_Version" value="web" />
+		<parameter name="bundleID" value="" />
+		<parameter name="appPackage" value="" />
+		<parameter name="appActivity" value="" />
+		<parameter name="appname" value="" />
+		<parameter name="appurl" value="" />
+		<parameter name="appbrowser" value="" />
+		<parameter name="appType" value="HYBRID" />
+		<parameter name="platform" value="GRID" />
+		<parameter name="user" value="" />
+		<parameter name="password" value="" />
+		<parameter name="url" value="" />
+		<parameter name="datasheetloc" value="" />
+		<parameter name="screenshotsloc" value="" />
+		<parameter name="driversheet" value="" />
+		<classes>
+			<class name="executionEngine.DriverScript">
+			</class>
+		</classes>
+	</test>
+
+	<test name="ie">
+		<parameter name="device_ID" value="web" />
+		<parameter name="platformName" value="ie" />
+		<parameter name="os_Version" value="web" />
+		<parameter name="bundleID" value="" />
+		<parameter name="appPackage" value="" />
+		<parameter name="appActivity" value="" />
+		<parameter name="appname" value="" />
+		<parameter name="appurl" value="" />
+		<parameter name="appbrowser" value="" />
+		<parameter name="appType" value="HYBRID" />
+		<parameter name="platform" value="GRID" />
+		<parameter name="user" value="" />
+		<parameter name="password" value="" />
+		<parameter name="url" value="" />
+		<parameter name="datasheetloc" value="" />
+		<parameter name="screenshotsloc" value="" />
+		<parameter name="driversheet" value="" />
+		<classes>
+			<class name="executionEngine.DriverScript">
+			</class>
+		</classes>
+	</test>
+
+	<test name="firefox">
+		<parameter name="device_ID" value="web" />
+		<parameter name="platformName" value="firefox" />
+		<parameter name="os_Version" value="web" />
+		<parameter name="bundleID" value="" />
+		<parameter name="appPackage" value="" />
+		<parameter name="appActivity" value="" />
+		<parameter name="appname" value="" />
+		<parameter name="appurl" value="" />
+		<parameter name="appbrowser" value="" />
+		<parameter name="appType" value="HYBRID" />
+		<parameter name="platform" value="GRID" />
+		<parameter name="user" value="" />
+		<parameter name="password" value="" />
+		<parameter name="url" value="" />
+		<parameter name="datasheetloc" value="" />
+		<parameter name="screenshotsloc" value="" />
+		<parameter name="driversheet" value="" />
+		<classes>
+			<class name="executionEngine.DriverScript">
+			</class>
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->

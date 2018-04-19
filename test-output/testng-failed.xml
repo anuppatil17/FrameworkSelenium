@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="appPackage" value=""/>
+  <parameter name="appbrowser" value=""/>
+  <parameter name="device_ID" value="web"/>
+  <parameter name="datasheetloc" value=""/>
+  <parameter name="screenshotsloc" value=""/>
+  <parameter name="bundleID" value=""/>
+  <parameter name="appurl" value=""/>
+  <parameter name="os_Version" value="web"/>
+  <parameter name="platform" value="GRID"/>
+  <parameter name="url" value=""/>
+  <parameter name="appActivity" value=""/>
+  <parameter name="password" value=""/>
+  <parameter name="appname" value=""/>
+  <parameter name="appType" value="HYBRID"/>
+  <parameter name="platformName" value="firefox"/>
+  <parameter name="user" value=""/>
+  <parameter name="driversheet" value=""/>
+  <test name="chrome(failed)">
+    <parameter name="appPackage" value=""/>
+    <parameter name="appbrowser" value=""/>
+    <parameter name="device_ID" value="web"/>
+    <parameter name="datasheetloc" value=""/>
+    <parameter name="screenshotsloc" value=""/>
+    <parameter name="bundleID" value=""/>
+    <parameter name="appurl" value=""/>
+    <parameter name="os_Version" value="web"/>
+    <parameter name="platform" value="GRID"/>
+    <parameter name="url" value=""/>
+    <parameter name="appActivity" value=""/>
+    <parameter name="password" value=""/>
+    <parameter name="appname" value=""/>
+    <parameter name="appType" value="HYBRID"/>
+    <parameter name="platformName" value="chrome"/>
+    <parameter name="user" value=""/>
+    <parameter name="driversheet" value=""/>
+    <classes>
+      <class name="executionEngine.DriverScript">
+        <methods>
+          <include name="setupDriver"/>
+          <include name="setupDriver"/>
+          <include name="setupDriver"/>
+          <include name="setupDriver"/>
+          <include name="setupDriver"/>
+          <include name="main_method"/>
+          <include name="shutDownSelenium"/>
+          <include name="shutDownSelenium"/>
+          <include name="shutDownSelenium"/>
+          <include name="shutDownSelenium"/>
+          <include name="shutDownSelenium"/>
+        </methods>
+      </class> <!-- executionEngine.DriverScript -->
+    </classes>
+  </test> <!-- chrome(failed) -->
+  <test name="ie(failed)">
+    <parameter name="appPackage" value=""/>
+    <parameter name="appbrowser" value=""/>
+    <parameter name="device_ID" value="web"/>
+    <parameter name="datasheetloc" value=""/>
+    <parameter name="screenshotsloc" value=""/>
+    <parameter name="bundleID" value=""/>
+    <parameter name="appurl" value=""/>
+    <parameter name="os_Version" value="web"/>
+    <parameter name="platform" value="GRID"/>
+    <parameter name="url" value=""/>
+    <parameter name="appActivity" value=""/>
+    <parameter name="password" value=""/>
+    <parameter name="appname" value=""/>
+    <parameter name="appType" value="HYBRID"/>
+    <parameter name="platformName" value="ie"/>
+    <parameter name="user" value=""/>
+    <parameter name="driversheet" value=""/>
+    <classes>
+      <class name="executionEngine.DriverScript">
+        <methods>
+          <include name="setupDriver"/>
+          <include name="setupDriver"/>
+          <include name="setupDriver"/>
+          <include name="setupDriver"/>
+          <include name="setupDriver"/>
+          <include name="main_method"/>
+          <include name="shutDownSelenium"/>
+          <include name="shutDownSelenium"/>
+          <include name="shutDownSelenium"/>
+          <include name="shutDownSelenium"/>
+          <include name="shutDownSelenium"/>
+        </methods>
+      </class> <!-- executionEngine.DriverScript -->
+    </classes>
+  </test> <!-- ie(failed) -->
+</suite> <!-- Failed suite [Suite] -->
